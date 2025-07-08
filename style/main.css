@@ -1,0 +1,434 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/background.png);
+    background-size: cover;
+    background-color: rgb(2, 4, 122);
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+}
+
+.footer {
+    background: linear-gradient(#15069d, #011d31);
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.footer-logo {
+    width: 150px;
+    max-width: 100%; /* Tambahkan ini agar logo fleksibel */
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.footer-title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.platforms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Memastikan ikon platform menyesuaikan ukuran layar */
+    gap: 20px; /* Menambahkan jarak antar ikon */
+    margin-bottom: 20px;
+}
+
+.platforms img {
+    width: 80px; /* Ukuran default ikon */
+    max-width: 100%; /* Membuat gambar fleksibel */
+    height: auto; /* Memastikan proporsi gambar tetap terjaga */
+    transition: transform 0.3s ease;
+}
+
+.platforms img:hover {
+    transform: scale(1.1); /* Membesar saat dihover */
+}
+
+.legal-text {
+    font-size: 12px;
+    line-height: 1.5;
+    color: #ffffff;
+    margin-top: 20px;
+}
+ 
+
+.container {
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.header {
+    width: 100%;
+    background: linear-gradient(#15069d, #011d31);
+    padding-left: 50px;
+    height: 160px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.header .logo-header {
+    float: left;
+    margin-top: 25px;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.header .container .navigation {
+    float: right;
+    margin-top: 65px;
+    text-decoration: none;
+}
+
+.header .navigation li {
+    margin-left: 20px;
+    float: left;
+    font-size: 20px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.header .navigation li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Barlow, sans-serif;
+}
+
+.header .navigation li a:hover {
+    color: #fffb00;
+}
+
+h1 {
+    color: white;
+    font-family: Bowlby One;
+    font-size: 35px;
+    text-align: center;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: Barlow, sans-serif;
+}
+
+.index-button {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.index-button-contact {
+    text-align: center;
+    margin-top: -130px;
+    margin-bottom: 50px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3a8bc9;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Barlow, sans-serif;
+    width: 500px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.button-play a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffe100;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 35px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: Barlow, sans-serif;
+    width: 500px;
+    text-align: center;
+    justify-items: center;
+    margin-top: 60px;
+    margin-left: 34%;
+}
+
+.button:hover {
+    background-color: #4845a0;
+}
+
+.button-play a:hover {
+    background-color: #92970e;
+}
+
+.button-feature {
+    font-family: Barlow;
+    text-decoration: none;
+    font-weight: bold;
+    color: #15069d;
+}
+
+.button-feature:hover {
+    background-color: #ffe100;
+}
+
+.main-content {
+    padding: 40px;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.main-content-home {
+    padding: 40px;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.main-content-contact {
+    padding: 40px;
+    text-align: left;
+    margin-top: 160px;
+}
+
+.main-content h1 {
+    color: #f6e605;
+    font-size: 55px;
+}
+
+.main-content-home h1 {
+    color: #f6e605;
+    font-size: 55px;
+}
+
+.main-content-contact h1 {
+    color: #f6e605;
+    font-size: 55px;
+}
+
+.main-content-contact p {
+    text-align: left;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0% 20% 0% 20%;
+}
+
+.main-content p {
+    padding: 0%;
+}
+
+.main-content-home p {
+    margin-top: -50px;
+    font-size: xx-large;
+}
+
+.main-content-about {
+    margin-top: 230px ;
+}
+
+.main-content-about .image-logo {
+    margin: 0px 565px 50px 565px;
+}
+
+.main-content-about .paragraph-about1 {
+    margin: 0px 150px 0px 150px;
+}
+
+.main-content-about .paragraph-about1 p{
+    font-size: medium;
+    text-align: left;
+}
+
+.intro {
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.featured-section {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 40px;
+}
+
+.feature {
+    width: 250px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 15px;
+}
+
+.feature img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.feature p {
+    color: black;
+}
+
+.video-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+iframe {
+    width: 60%;
+    height: 630px;
+    border: none;
+    border-radius: 10px;
+}
+
+.icon-kelas {
+    width: 350px;
+    height: 350px;
+    background: green;
+    background-image: url(../images/personal-photo.JPG);
+    background-size:cover;
+    background-position: center;
+    align-items: center;
+    border-radius: 20%;
+    border: 20px solid #ffffff;
+}
+
+.parent {
+    margin-top: -60px;
+    padding: 0% 30% 0% 40%;
+}
+
+.main-content-contact p {
+    text-align: center;
+    font-size: 25px;
+}
+
+/* ini buat ada scrollbar kesamping */
+.horizontal-scroll {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 200%;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .horizontal-scroll p {
+    font-size: medium;
+    list-style-type: none;
+    font-style: normal;
+  }
+  
+/* ini buat ngilangin scrollbarnya */
+  .horizontal-scroll::-webkit-scrollbar {
+    display: none;
+  }
+
+.main-content-about2 {
+    display: flex;
+    max-width: 850px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.main-content-about2 p {
+    color: black;
+}
+
+  .container-image {
+    display: flex;
+    width: max-content;
+    gap: 1rem;
+  }
+
+  .item {
+    flex: 0 0 auto;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+
+  .item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 3px rgba(0, 0, 0, 0.5);
+  }
+
+  .item img {
+    border-radius: 10px;
+  }
+
+  .horizontal-scroll .container-image {
+    display: flex;
+    width: calc(350px * 20);
+    animation: scroll 40s linear infinite;
+    height: 200%;
+    gap: 4rem;
+  }
+  
+  .horizontal-scroll {
+    animation-play-state: paused;
+  }
+
+  .box-container{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.box-container div{
+    display: flex;
+    gap: 2rem;
+    margin-left: 30px;
+}
+
+.box-container .boxes {
+    width: 720px;
+    height: 408px;
+    background-color: brown;
+    border-radius: 20px;
+}
+
+.racer-box .box-container .boxes {
+    width: 720px;
+    height: 408px;
+    background-color: brown;
+    border-radius: 20px;
+}
+
+
+.box-container .boxes img {
+    border-radius: 20px;   
+}
+
+.gallery-box {
+    display: flex;
+    justify-content: center ;
+}
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-900px);
+    }
+  }
+  
+  
